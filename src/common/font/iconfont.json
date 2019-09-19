@@ -1,0 +1,72 @@
+{
+  "id": "1425272",
+  "name": "阿里健康",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7119846",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e73d",
+      "unicode_decimal": 59197
+    },
+    {
+      "icon_id": "7120071",
+      "name": "药品",
+      "font_class": "yaopin",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "7120091",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    },
+    {
+      "icon_id": "7120351",
+      "name": "用药",
+      "font_class": "yongyao",
+      "unicode": "e741",
+      "unicode_decimal": 59201
+    },
+    {
+      "icon_id": "7120353",
+      "name": "喜欢",
+      "font_class": "xihuan",
+      "unicode": "e742",
+      "unicode_decimal": 59202
+    },
+    {
+      "icon_id": "7120361",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e743",
+      "unicode_decimal": 59203
+    },
+    {
+      "icon_id": "7120369",
+      "name": "安全",
+      "font_class": "anquan",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "7120443",
+      "name": "历史",
+      "font_class": "lishi",
+      "unicode": "e745",
+      "unicode_decimal": 59205
+    },
+    {
+      "icon_id": "7120490",
+      "name": "相机",
+      "font_class": "xiangji",
+      "unicode": "e748",
+      "unicode_decimal": 59208
+    }
+  ]
+}
