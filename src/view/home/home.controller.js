@@ -1,16 +1,28 @@
 export default class HomeController {
-  constructor(randomNames) {
-    this.random = randomNames;
-    this.name = 'World';
-  }
+	constructor($scope, $cacheFactory, randomNames) {
+		this.random = randomNames;
+		this.name = 'World';
 
-  changeName() {
-    this.name = 'angular-tips';
-  }
+		this.data = {
+			age: 26,
+			sex: '男'
+		}
 
-  randomName() {
-    this.name = this.random.getName();
-  }
+		console.log($scope, '$scope====')
+
+		// console.log($cacheFactory, 'CacheFactory====')
+
+
+	}
+
+	changeName() {
+
+		this.name = 'angular-tips';
+	}
+
+	randomName() {
+		this.name = this.random.getName();
+	}
 }
 
-HomeController.$inject = ['randomNames'];
+HomeController.$inject = ['$scope', '$cacheFactory', 'randomNames'];
