@@ -1,41 +1,48 @@
-# Angular 1.x WebPack + Babel workflow
+# Angular 1.x + WebPack + ES6/ES7 +  Babel 
 
-This workflow serves as a starting point for building Angular 1.x applications using WebPack.
+Build an Angular 1.x application using WebPack
 
-It is a direct port of the amazing [react workflow](https://github.com/cesarandreu/web-app) of [Cesar Andreu](https://github.com/cesarandreu). All the credits goes for him.
 
 ## Features
 
-* Heavily commented webpack configuration with reasonable defaults.
-* ES6, and ES7 support with babel.js.
-* Source maps included in all builds.
-* Development server with hot reload when possible and refresh otherwise.
-* Production builds with cache busting and asset minification.
-* Testing environment using karma to run tests and jasmine as the framework.
-* Code coverage when tests are run.
-* No gulp and no grunt, just npm run-scripts.
+* 使用合理的默认值对 Webpack进行配置
+* 支持 ES6, ES7 支持
+
+* ------------ 待完善 ------------------
+
+* 在开发服务器在可能的情况下进行热重载，否则进行刷新
+* 开发，生产环境支持 source maps
+* 使用Karma和Jasmine来进行ng模块的单元测试
+* 运行测试时的代码覆盖率
+
 
 ## Installation
 
 To use it, just clone this repo and install the npm dependencies:
 
-```shell
-$ git clone https://github.com/Foxandxss/angular-webpack-workflow my_app
-$ cd my_app
-$ npm install
+```text
+
+shell
+
+$ git clone https://github.com/XiaoLiz/webpack-Angularjs1.x.git
+
+$ cd webpack-Angularjs1.x
+
+$ npm install or yarn install 
+
 ```
 
 ## Scripts
 
 All scripts are run with `npm run [script]`, for example: `npm run test`.
 
-* `build` - generate a minified build to dist folder
-* `dev` - start development server, try it by opening `http://localhost:8080/`
-* `test` - run all tests
-* `test:live` - continuously run unit tests watching for changes
+* `build` - webpack build production environment
+* `dev` - start development server, try it by opening 	`http://localhost:8080/`
+
 
 See what each script does by looking at the `scripts` section in [package.json](./package.json).
 
-## Example
+
+## 参考案例
 
 To see how to structure an Angular 1.x application using this workflow, please check [this demo](https://github.com/Foxandxss/GermanWords-ng1-webpack).
