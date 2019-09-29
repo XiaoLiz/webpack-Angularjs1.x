@@ -24,7 +24,7 @@ To use it, just clone this repo and install the npm dependencies:
 
 shell
 
-$ git clone https://github.com/XiaoLiz/webpack-Angularjs1.x.git
+$ git clone https://github.com/XiaoLiz/webpack-Angularjs1.x-ES6.git
 
 $ cd webpack-Angularjs1.x
 
