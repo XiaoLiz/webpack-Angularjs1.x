@@ -18,7 +18,7 @@
 		"@babel/plugin-transform-runtime": "^7.6.0",
 		"@babel/preset-env": "^7.6.0",
 		"@uirouter/angularjs": "^1.0.22",
-		"angular": "1.2.32",
+		"angular": "1.8.0",
 		"angular-ui-router": "^1.0.22",
 		"autoprefixer": "^9.6.1",
 		"babel-loader": "^8.0.6",
